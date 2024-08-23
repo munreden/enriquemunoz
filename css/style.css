@@ -247,6 +247,21 @@ footer p {
     opacity: 0.8;
 }
 
+.portfolio-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.portfolio-link img {
+    margin-right: 10px;
+}
+
+.portfolio {
+    font-family: 'Gloss And Bloom', sans-serif;
+    font-size: 24px;
+    line-height: 1;
+}
 
 /* EXTRAS
  * =================================================================== */
