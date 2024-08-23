@@ -48,14 +48,14 @@
 
  #fork {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 0px;
+    right: 0px;
     width: 100px;
     height: auto;
 }
 
  .section-image {
- 	background: #151515 url(https://wallpaperaccess.com/full/1892752.jpg) no-repeat center center; /*url(../images/carousel-main.png) no-repeat center center;*/
+ 	background: #151515 url('../images/carousel-background-pc.png') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -148,6 +148,11 @@
     padding: 15px;
 }
 
+.social-footer-logo {
+    max-width: 70px;
+    height: auto;
+}
+
 .social-footer a {
     color: white;
     text-decoration: none;
@@ -233,7 +238,7 @@ footer {
     bottom: 0;
     background-color: black;
     color: #fff;
-    padding: 50px 0;
+    padding: 30px 0;
 
 }
 
@@ -336,6 +341,10 @@ footer p {
 
     }
 
+    .social-footer-logo {
+        padding-bottom: 15px;
+    }
+
     .intro-desc {
         font-size: 0.7em;
     }
@@ -370,6 +379,10 @@ footer p {
 
     footer p {
     text-align: center;
+    }
+
+    .social-footer-logo {
+        padding-bottom: 15px;
     }
 
 }
