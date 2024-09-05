@@ -274,7 +274,7 @@ footer p {
             border-radius: 16px;
             display: block;
             height: 50px;
-            margin: 100px auto;
+            margin: 50px auto;
             position: absolute;
             left: 0;
             right: 0;
@@ -385,7 +385,7 @@ footer p {
 
     #skills {
         background: #151515 url(../images/skills.png) no-repeat center center;
-        background-position: top center;
+        background-position: center;
 
     }
 }
